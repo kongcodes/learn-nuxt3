@@ -7,4 +7,7 @@
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+  const age = useAge()
+  console.log(age.value)
+</script>
